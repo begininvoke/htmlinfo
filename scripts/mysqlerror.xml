@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>MySql Erorr</name>
+<title>MySql Erorr in html</title>
+<point>70</point>
+<type>regex</type>
+<values>
+<value><text>sql syntax.*?mysql</text></value>
+<value><text>warning.*?\Wmysqli?_</text></value>
+<value><text>mysqlsyntaxerrorexception</text></value>
+<value><text>valid mysql result</text></value>
+<value><text>check the manual that corresponds to your (mysql|mariadb) server version</text></value>
+<value><text>unknown column '[^ ]+' in 'field list'</text></value>
+<value><text>mysqlclient\.</text></value>
+<value><text>com\.mysql\.jdbc</text></value>
+<value><text>zend_db_(adapter|statement)_mysqli_exception</text></value>
+<value><text>pdo[./_\\]mysql</text></value>
+<value><text>mysqlexception</text></value>
+</values>
+</module>
+</modules>

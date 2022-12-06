@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Forms</name>
+<title>Forms in html</title>
+<point>10</point>
+<type>regex</type>
+<values>
+<value><text>&lt;form.*?(action|method)</text></value>
+</values>
+</module>
+</modules>

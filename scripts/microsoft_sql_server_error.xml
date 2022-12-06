@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>microsoft sql server error</name>
+<title>microsoft sql server Erorr in html</title>
+<point>70</point>
+<type>regex</type>
+<values>
+<value><text>driver.*? sql[\-\_\ ]*server</text></value>
+<value><text>ole db.*? sql Server</text></value>
+<value><text>\bsql server[^&lt;&quot;]+driver</text></value>
+<value><text>warning.*?\W(mssql|sqlsrv)_</text></value>
+<value><text>\bsql server[^&lt;&quot;]+[0-9a-fA-F]{8}</text></value>
+<value><text>system\.data\.sqlclient\.sqlException</text></value>
+<value><text>(?s)exception.*?\broadhouse\.Cms\.</text></value>
+<value><text>microsoft sql native client error '[0-9a-fA-F]{8}</text></value>
+<value><text>\[sql Server\]</text></value>
+<value><text>odbc sql Server Driver</text></value>
+<value><text>odbc Driver \d+ for SQL Server</text></value>
+<value><text>sqlserver jdbc Driver</text></value>
+<value><text>com\.jnetdirect\.jsql</text></value>
+<value><text>macromedia\.jdbc\.sqlserver</text></value>
+<value><text>zend_db_(adapter|statement)_sqlsrv_exception</text></value>
+<value><text>com\.microsoft\.sqlserver\.jdbc</text></value>
+<value><text>pdo[./_\\](mssql|sqlsrv)</text></value>
+<value><text>sql(Srv|Server)Exception</text></value>
+</values>
+</module>
+</modules>

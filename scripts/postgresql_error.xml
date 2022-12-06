@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>PostgreSQL Erorr</name>
+<point>70</point>
+<title>PostgreSQL Erorr in html</title>
+<type>regex</type>
+<values>
+<value><text>postgresql.*?error</text></value>
+<value><text>warning.*?\Wpg_</text></value>
+<value><text>valid postgresql result</text></value>
+<value><text>npgsql\.</text></value>
+<value><text>pg::syntaxerror:</text></value>
+<value><text>org\.postgresql\.util\.psqlexception</text></value>
+<value><text>error:\s\ssyntax error at or near</text></value>
+<value><text>error: parser: parse error at or near</text></value>
+<value><text>postgresql query failed</text></value>
+<value><text>org\.postgresql\.jdbc</text></value>
+<value><text>pdo[./_\\]pgsql</text></value>
+<value><text>psqlexception</text></value>
+</values>
+</module>
+</modules>

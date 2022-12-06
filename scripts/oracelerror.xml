@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Oracle Erorr</name>
+<title>Oracle Erorr in html</title>
+<point>70</point>
+<type>regex</type>
+<values>  
+<value><text>\bora-\d{5}</text></value> 
+<value><text>oracle error</text></value> 
+<value><text>oracle.*?driver</text></value> 
+<value><text>warning.*?\W(oci|ora)_</text></value> 
+<value><text>quoted string not properly terminated</text></value> 
+<value><text>sql command not properly ended</text></value> 
+<value><text>macromedia\.jdbc\.oracle</text></value> 
+<value><text>oracle\.jdbc</text></value> 
+<value><text>zend_Db_(adapter|statement)_oracle_Exception</text></value> 
+<value><text>pdo[./_\\](oracle|OCI)</text></value> 
+<value><text>oracleexception</text></value> 
+</values>
+</module>
+</modules>

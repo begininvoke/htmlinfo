@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Phone Number</name>
+<title>Phone Number in html</title>
+<point>10</point>
+<type>regex</type>
+<values>
+<value><text>(\(?\+?[0-9]{1,2}\)?[-.])?(\(?[0-9]{3}\)?|[0-9]{3})[-.]([0-9]{3}[-.][0-9]{4}\b)</text></value>
+<value><text>\([0-9]{3}\) [0-9]{3}[-.][0-9]{4}</text></value>
+<value><text>\+1\d{10}</text></value>
+<value><text>\+98\d{10}</text></value>
+</values>
+</module>
+</modules>

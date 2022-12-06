@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Sqllite Erorr</name>
+<point>70</point>
+<title>Sql lite Erorr in html</title>
+<type>regex</type>
+<values>
+<value><text>sql syntax.*?mysql</text></value>
+<value><text>sqlite/jdbcdriver</text></value>
+<value><text>sqlite\.exception</text></value>
+<value><text>(microsoft|system)\.data\.sqlite\.sqliteexception</text></value>
+<value><text>warning.*?\W(sqlite_|sqlite3::)</text></value>
+<value><text>\[sqlite_error\]</text></value>
+<value><text>sqlite error \d+:</text></value>
+<value><text>sqlite3.operationalerror:</text></value>
+<value><text>sqlite3::sqlexception</text></value>
+<value><text>org\.sqlite\.jdbc</text></value>
+<value><text>pdo[./_\\]sqlite</text></value>
+<value><text>sqliteexception</text></value>
+</values>
+</module>
+</modules>

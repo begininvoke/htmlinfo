@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Uploader</name>
+<title>Uploader in html</title>
+<point>70</point>
+<type>contains</type>
+<values>
+<value><text>&lt;input type='file'</text></value>
+</values>
+</module>
+</modules>

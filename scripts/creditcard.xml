@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Credit Card</name>
+<title>Credit Card in html</title>
+<point>10</point>
+<type>regex</type>
+<values>
+<value><text>\d{4}[-]?\d{4}[-]?\d{4}[-]?\d{4}|\d{4}[-]?\d{6}[-]?\d{4}\d?</text></value>
+</values>
+</module>
+</modules>

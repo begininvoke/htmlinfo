@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>Iframe</name>
+<title>Iframe in html</title>
+<point>10</point>
+<type>contains</type>
+<values>
+<value><text>&lt;iframe</text></value>
+</values>
+</module>
+</modules>

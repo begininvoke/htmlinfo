@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+<module>
+<name>input</name>
+<title>input in html</title>
+<point>10</point>
+<type>contains</type>
+<values>
+<value><text>&lt;input</text></value>
+</values>
+</module>
+</modules>
